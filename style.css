@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+ul,li{
+    list-style: none;
+}
+.nav_contaier{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.links a{
+    text-decoration: none;
+    color: #4A556C;
+}
+.btn{
+    padding: 10px 15px;
+    border: none;
+    background-color: #20AD96;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero .container{
+    display: flex;
+    align-items: center;
+}
+.hero_info{
+    width: 480px;
+    position: relative;
+}
+.hero{
+    background-color: whitesmoke;
+}
+.hero_info h1{
+    font-size: 70px;
+    color: #333461;
+    margin: 10px 0px;
+}
+
+.hero_info p{
+  color: #4a6c4d86;
+}
+
+.desc{
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: black !important;
+}
+.vector{
+    position: absolute;
+    top: -100px;
+    left: -80px;
+}
+
+.services_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+    position: relative;
+}
+
+.services_info div{
+   width: 50%;
+
+}
+.services_info h2{
+    font-size: 46px;
+    color: #333461;
+}
+
+.services_cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services_cards .card{
+    width: 380px;
+    
+}
+
+.services_section{
+    padding: 50px 0px;
+}
+
+.vector1{
+    position: absolute;
+    top: -10px;
+}
+
+.clients_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.clients_section{
+    margin-top: 100px;
+    padding: 100px 0px;
+}
+.pedro{
+    background-color: whitesmoke;
+}
+
+.clients_cards .card1{
+    width: 300px;
+    background-color: white;
+    padding: 50px;
+}
+.name h2{
+    font-size: 46px;
+    color: #333461;
+    margin-bottom: 30px;
+}
+ .card1 h3{
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+
+
+ .blogs_card{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .name1 h2{
+    text-align: center;
+    font-size: 46px;
+    color: #333461;
+    margin-bottom: 50px;
+}
+
+ .blop_info{
+    width: 300px;
+ }
+ .blop_info h2{
+    color: #333461;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ .blog_info{
+    margin-top: 100px;
+ }
+
+ .btn1{
+    text-align: center;
+ }
+ .btn1 button{
+    padding: 10px 30px;
+    background-color: #20AD96;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+ }
+
+ .guide_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+ }
+ .left{
+    width: 500px;
+ }
+ .left h2{
+    font-size: 46px;
+    color: #333461;
+    margin-top: -100px;
+    margin-bottom: 50px;
+ }
+
+ .left button{
+    padding: 10px 30px;
+    background-color: #20AD96;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+ }
+
+
+ .peach_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .righ1 input{
+    width: 300px;
+    padding: 10px 10px;
+ }
+
+ .search_info{
+    margin-top: 50px;
+ }
+ .search{
+    background-color: whitesmoke;
+    padding: 10px 0px;
+ }
+ .left1 h1{
+    font-size: 30px;
+    color: #333461;
+    margin-bottom: 20px;
+ }
+
+
+ .seret{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+ }
+ 
+
+ .seret p{
+    line-height: 30px;
+    color: rgb(126, 126, 126);
+ }
+
+ hr{
+    margin-top: 50px;
+ }
+ .kil{
+    margin-top: 30px;
+ }
+
